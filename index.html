@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A modern multi-page Resume and Bio-data website">
+  <meta name="author" content="Jyothika G S">
+  <meta name="keywords" content="resume, biodata, portfolio, HTML, CSS, JavaScript, jQuery">
+  <title>NovaCV | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span>✦</span> Nova<span>CV</span></a>
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="biodata.html">Bio-data</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="themeToggle" class="icon-btn" title="Change theme" aria-label="Change theme">◐</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER SCIENCE • STUDENT • CREATOR</p>
+        <h1>Hello, I'm <span class="gradient-text">Jyothika G S.</span></h1>
+        <p class="lead">Computer Science & Engineering student with hands-on experience in Python, Java, SQL, Flask, Machine Learning and NLP.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="resume.html">Explore Resume →</a>
+          <a class="btn secondary" href="biodata.html">View Bio-data</a>
+        </div>
+        <dl class="quick-stats">
+          <div><dt>01</dt><dd>Problem Solver</dd></div>
+          <div><dt>02</dt><dd>Web Learner</dd></div>
+          <div><dt>03</dt><dd>Team Player</dd></div>
+        </dl>
+      </div>
+      <aside class="profile-card">
+        <div class="avatar" aria-label="Profile placeholder">YN</div>
+        <div class="status"><i></i> Available for opportunities</div>
+        <h2>Jyothika G S</h2>
+        <p>CSE Student • AI/ML</p>
+        <hr>
+        <blockquote>“Learn. Build. Solve. Grow.”</blockquote>
+      </aside>
+    </section>
+
+    <section class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">WHY THIS SITE?</p>
+        <h2>A resume that feels like <em>you</em>.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="glass-card">
+          <span class="card-icon">⌘</span>
+          <h3>Technical</h3>
+          <p>Showcase skills, education, projects and achievements in a clean structure.</p>
+        </article>
+        <article class="glass-card">
+          <span class="card-icon">◎</span>
+          <h3>Personal</h3>
+          <p>Bio-data presents personal details, strengths, interests and career goals.</p>
+        </article>
+        <article class="glass-card">
+          <span class="card-icon">⚡</span>
+          <h3>Interactive</h3>
+          <p>JavaScript and jQuery add theme switching, filters, counters and form validation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section split">
+      <div>
+        <p class="eyebrow">HTML ELEMENTS</p>
+        <h2>Built with modern HTML.</h2>
+        <p>This project intentionally uses semantic and interactive HTML elements such as <code>header</code>, <code>nav</code>, <code>main</code>, <code>section</code>, <code>article</code>, <code>aside</code>, <code>footer</code>, lists, tables, forms, media, details and more.</p>
+      </div>
+      <details class="glass-card details">
+        <summary>What makes this assignment-ready?</summary>
+        <ul>
+          <li>Multiple linked web pages</li>
+          <li>Responsive CSS layout</li>
+          <li>JavaScript + jQuery interactions</li>
+          <li>Accessible labels and semantic structure</li>
+          <li>Cloud deployment instructions included</li>
+        </ul>
+      </details>
+    </section>
+
+    <section class="container section tag-lab">
+      <p class="eyebrow">HTML TAG LAB</p>
+      <h2>Element showcase</h2>
+      <p>Examples of additional HTML elements used in the project:</p>
+      <p><mark>Highlighted</mark> <small>small text</small> <strong>strong</strong> <b>bold</b> <i>italic</i> <u>underline</u> <s>struck</s> <del>deleted</del> <ins>inserted</ins> H<sub>2</sub>O x<sup>2</sup></p>
+      <pre><code>&lt;article&gt;Semantic content&lt;/article&gt;</code></pre>
+      <meter min="0" max="100" value="85">85%</meter>
+      <progress value="72" max="100">72%</progress>
+      <figure>
+        <svg viewBox="0 0 500 90" role="img" aria-label="Decorative portfolio graphic">
+          <rect x="5" y="5" width="490" height="80" rx="20" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="55" cy="45" r="20" fill="currentColor"/>
+          <text x="90" y="52" font-size="24" fill="currentColor">Create • Learn • Grow</text>
+        </svg>
+        <figcaption>A simple inline SVG graphic.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Jyothika G S. Built with HTML, CSS, JavaScript & jQuery.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
