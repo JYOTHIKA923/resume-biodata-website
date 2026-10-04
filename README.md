@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NovaCV — Resume & Bio-data Multi-page Website
 
 ## Pages
@@ -50,3 +51,7 @@ The contact form is a front-end demo. It validates input but does not send email
 
 ## Personal content source
 The Resume page has been populated from the uploaded Jyothika G S resume PDF. Personal fields not present in that PDF are left as 'Not provided' rather than invented.
+=======
+# resume-biodata-website
+Multi-page Resume &amp; Bio-data website built with HTML, CSS, JavaScript and jQuery.
+>>>>>>> c0bd39e382501fd7d65a149e0fd5d0839fc913de
